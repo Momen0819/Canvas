@@ -161,13 +161,7 @@
             context.fillText(From, 370, 417);
             context.fillText(To, 215, 197);
             //document.getElementById('canvasImg').setAttribute('crossOrigin', 'anonymous');
-            var dataURL = canvas.toDataURL();
-
-            var link = document.createElement('a');
-            link.download = "my-image.jpg";
-            link.href = dataURL;
-            //alert(link.href);
-            link.click();
+          
             $('#exampleModal').modal("show");
         }
 
